@@ -1,17 +1,22 @@
-import java.util.Scanner;
 
-public class EvenOdd {
+public class AreaofTriangle {
+	
+	static void  ajay(){
+
+        System.out.println("THIS IS AJAY");
+	}
 
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in);
+        double b = 5.8;
+	double h = 8.6;
+	double area;
 
-        System.out.print("Enter a number: ");
-        int num = reader.nextInt();
+	area = (b*h)/2;
 
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
-        else
-            System.out.println(num + " is odd");
+        System.out.print("Area of Triangle is: ",area " sq units");
+
+	ajay();
+        
     }
 }
