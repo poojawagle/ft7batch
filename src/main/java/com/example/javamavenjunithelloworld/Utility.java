@@ -16,6 +16,13 @@ public class AreaofTriangle {
         else{
            System.out.println("The bigger number is" +num2);
           }
+
+public class AreaofSquare{
+    static void sagar(int s)
+    {
+   int area_square=s*s;
+        System.out.println("Area of the square="+area_square);
+     }
 }
 	
 	static void  ajay(){
@@ -45,6 +52,7 @@ public class AreaofTriangle {
 
 	ajay();
 	sneha(num);
+	sagar(s);
 	preksha();
         lakshmi(num1,num2);
         
