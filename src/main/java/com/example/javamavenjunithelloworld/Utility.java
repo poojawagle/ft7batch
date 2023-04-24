@@ -9,6 +9,14 @@ public class AreaofTriangle {
           System.out.println("Number "+num+" is odd");
 	}	
 }
+
+public class AreaofSquare{
+    static void sagar(int s)
+    {
+   int area_square=s*s;
+        System.out.println("Area of the square="+area_square);
+     }
+}
 	
 	static void  ajay(){
 
@@ -37,6 +45,7 @@ public class AreaofTriangle {
 
 	ajay();
 	sneha(num);
+	sagar(s);
 	preksha();
         
     }
